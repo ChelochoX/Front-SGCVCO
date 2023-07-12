@@ -1,0 +1,20 @@
+ .custom-label {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 5px;
+  color: darkblue;
+ }
+ h4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 5px;
+  color: darkblue;
+ }
+ h5 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-left: 5px;
+   color: darkblue;
+ }
+.list-group-item:hover {
+  background-color: #F3F781;
+  cursor: pointer;
+}
+
