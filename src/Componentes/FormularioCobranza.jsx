@@ -133,7 +133,7 @@ function FormularioCobranza() {
           </form>
           <div className="col-md-8 mb-3">
             <h5>Listado de CLientes</h5>
-            <ul className="list-group">
+            <ul className="list-group lista-clientes">
               {datosClientes.map((valor, index) => {
                 const ObtenerCodigoCliente = () => {
                   handleSeleccionCodigoCliente(valor.COD_CLIENTE);
@@ -153,7 +153,7 @@ function FormularioCobranza() {
         </div>
         <div className="col-md-6">
           <h5>Factura Pendientes de Pago</h5>
-          <ul className="list-group">
+          <ul className="list-group lista-facturas">
             {nroFacturaPendiente.map((valor, index) => {
               const ObtenerNroFacturaPendiente = () => {
                 /*handleSeleccionCodigoCliente(valor.COD_CLIENTE);*/
@@ -171,6 +171,9 @@ function FormularioCobranza() {
           </ul>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

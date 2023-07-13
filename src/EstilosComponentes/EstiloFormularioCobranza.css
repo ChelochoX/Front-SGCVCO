@@ -18,3 +18,18 @@
   cursor: pointer;
 }
 
+.lista-clientes {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #F2E2A8;
+    /* Agrega un borde de 1px de ancho con color gris */
+    border-radius: 5px;
+}
+
+.lista-facturas {
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #F2E2A8;
+    /* Agrega un borde de 1px de ancho con color gris */
+    border-radius: 5px;
+}
