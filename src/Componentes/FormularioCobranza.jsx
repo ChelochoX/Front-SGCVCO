@@ -2,9 +2,9 @@ import { useState } from "react";
 import axios from "axios";
 import "../EstilosComponentes/EstiloFormularioCobranza.css";
 
-const urlDatosClientes = "http://localhost:3000/api/cliente/datos";
+const urlDatosClientes = "https://tuvendedor.up.railway.app/api/cliente/datos";
 const urlFacturasPendientes =
-  "http://localhost:3000/api/cliente/factura/pagada/";
+  "https://tuvendedor.up.railway.app/api/cliente/factura/pagada/";
 
 function FormularioCobranza() {
   const [criterioBusqueda, SetcriterioBusqueda] = useState("");
@@ -40,6 +40,7 @@ function FormularioCobranza() {
       console.log(datosClientes);
     } catch (error) {
       console.error("Ocurrio Error al Solicitar datos del Cliente:", error);
+      console.log("Hola mundo");
     }
   };
 
@@ -67,7 +68,6 @@ function FormularioCobranza() {
       );
     }
   };
-
   return (
     <div className="container mt-5">
       <h5>Seleccionar la Opcion de Busqueda</h5>
