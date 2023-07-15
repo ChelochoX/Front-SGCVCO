@@ -21,6 +21,7 @@ function FormularioCobranza() {
     console.log("Valor de criterioBusqueda:", criterioBusqueda);
     console.log("Valor de valorBusqueda:", valorBusqueda);
 
+
     {
       /*Aqui Validamos los Criterios de Busqueda con los Valores de Busqueda*/
     }
